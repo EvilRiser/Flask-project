@@ -1,0 +1,23 @@
+set FLASK_APP=name_of_file
+#in this case 
+->$ set FLASK_APP=flaskblog.py 
+
+# then we have to write one more line to run this
+->$ flask run
+
+# to cont change without closing server we can use
+->$ set FLASK_DEBUG=1
+# in this mode we can see the changes simultaneously after writing this again run flask
+# or just app.run(debug=True)
+
+#now when use __main__ then no need for above just use
+->$ python file_name.py
+
+#in here
+->$ python flaskblog.py 
+
+
+#css files are kept in static
+# main_section is for body in layout inheritance same goes for navigation
+
+#article to be used in home page block content section
