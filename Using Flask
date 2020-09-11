@@ -21,3 +21,11 @@ set FLASK_APP=name_of_file
 # main_section is for body in layout inheritance same goes for navigation
 
 #article to be used in home page block content section
+
+#url_for is used to get urls of css pages stored in static folder in layout.html page
+url_for takes the name of "function"
+
+#when we use var we use {{}}
+# when we use iteration we use
+{}
+{end}
